@@ -117,7 +117,7 @@ grid_search = GridSearchCV(
         'max_depth': [6],
         'min_samples_split': [8],
         'min_samples_leaf': [4],
-        'max_features': ['auto', 'sqrt', 'log2', 8],
+        'max_features': [8],
     },
     scoring='roc_auc',
     cv=10,
